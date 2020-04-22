@@ -5,3 +5,5 @@ const increment = () => ({
 const decrement = () => ({
   type: 'DECREMENT',
 })
+
+export { increment, decrement }
